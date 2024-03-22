@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+
+.banner {
+    border: 3px solid blue;
+    border-radius: 6px;
+    height: 300px;
+}
+.text-left {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(20%);
+}
+.action {
+    width: 120px;
+}
+.card {
+    border: 2px solid green
+}
