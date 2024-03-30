@@ -24,3 +24,52 @@
 .card {
     border: 2px solid green
 }
+
+.title {
+    background-color: rgba(0,0,0,0.2);
+    font-weight: 700;
+}
+
+.overlay {
+    background: url('../public/glassesImage/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    background-attachment: fixed;
+    z-index: -1;
+    filter: brightness(60%);
+}
+
+.model img {
+    transform: translateX(260%);
+    border-radius: 6px;
+}
+.row-item {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 950px;
+    transform: translateX(20%);
+}
+
+.changeGlasses {
+    position: absolute;
+    top: 80px;
+    left: 310px;
+}
+
+.glassesInfo {
+    width: 250px;
+    position: absolute;
+    right: 628px;
+    top: 210px;
+    background: rgba(255, 165, 0, 0.5);
+
+}
+
+.brandName {
+    color:blueviolet;
+} 
+
+.desc {
+    font-weight: 700;
+}
