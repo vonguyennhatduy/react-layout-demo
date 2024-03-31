@@ -11,7 +11,7 @@ export const Model = (props) => {
   return (
     <div>
         <div className="model mt-5 position-relative">
-            <img width="250px" height="320px" src="../public/glassesImage/model.jpg" alt="..." />
+            <img width="250px" height="320px" src="/glassesImage/model.jpg" alt="..." />
             <div className="changeGlasses">
               <img width="150" src={glasses} alt="..."/>
             </div>
