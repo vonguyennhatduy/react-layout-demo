@@ -7,7 +7,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-
-LINK DEPLOY LAYOUT: https://react-layout-demo.vercel.app/
-
-LINK DEPLOY BT GLASSES APP: https://react-app-pi-woad.vercel.app/
+LINK DEPLOY BT SHOESHOP (REDUX TOOLKIT) : https://react-shoeshop.vercel.app/
