@@ -30,7 +30,7 @@ const btShoeShopSlice = createSlice({
 
         handleCartsDecrease: (state, {payload}) => {
             const idx = state.carts.findIndex((val) => val.id === payload.id);
-            state.carts[idx].cartQuantity = (state.pcarts[idx].cartQuantity - 1) || 1;
+            state.carts[idx].cartQuantity = (state.carts[idx].cartQuantity - 1) || 1;
         },
 
         handleCartsDeleteItem: (state , {payload}) => {
