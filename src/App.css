@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -72,4 +72,9 @@
 
 .desc {
     font-weight: 700;
+} */
+
+
+.cart {
+    border-radius: 10px;
 }

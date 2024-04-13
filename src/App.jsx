@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { BaiTapGlasses } from './GlassesApp/BaiTapGlasses'
+import { BtXucXac } from './BTXuxXac/BtXucXac'
+import { BTShoeShop } from './BTShoeShop/BTShoeShop'
 
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BaiTapGlasses/>
+      <BTShoeShop/>
     </>
   )
 }
