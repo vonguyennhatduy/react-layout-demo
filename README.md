@@ -9,3 +9,5 @@ Currently, two official plugins are available:
 
 
 LINK DEPLOY LAYOUT: https://react-layout-demo.vercel.app/
+
+LINK DEPLOY BT GLASSES APP: https://react-app-pi-woad.vercel.app/
