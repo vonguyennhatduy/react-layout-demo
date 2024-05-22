@@ -30,7 +30,17 @@ const btShoeShopSlice = createSlice({
 
         handleCartsDecrease: (state, {payload}) => {
             const idx = state.carts.findIndex((val) => val.id === payload.id);
-            state.carts[idx].cartQuantity = (state.carts[idx].cartQuantity - 1) || 1;
+            if(state.carts[idx].cartQuantity > 1){
+                state.carts[idx].cartQuantity--;
+            }else {
+                const newCarts = [];
+                for(let i = 0; i < state.carts.length; i++){
+                    if(i !== idx){
+                        newCarts.push(state.carts[i]);
+                    }
+                }
+                state.carts = newCarts;
+            }
         },
 
         handleCartsDeleteItem: (state , {payload}) => {

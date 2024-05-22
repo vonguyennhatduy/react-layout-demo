@@ -15,7 +15,7 @@ export const BTShoeShop = () => {
     <div>
         <div className="container mt-5">
           <div className='d-flex justify-content-between'>
-            <h2 className='text-success'>BÀI TẬP GIỎ HÀNG SHOE SHOP</h2>
+            <h2 className='text-success'>SHOE SHOP</h2>
             <button className='fs-2 text-white fw-bold btn btn-danger' data-bs-toggle="modal" data-bs-target="#modalCart">
               GIỎ HÀNG
             </button>
